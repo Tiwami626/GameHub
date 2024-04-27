@@ -1,5 +1,12 @@
-import Message from './Message';
+import Button from "./components/Button"
+import Alert from "./components/Alert"
+
 function App() {
-  return <div><Message /></div>
+  return (
+    <div>
+      <Button />
+      <Alert />
+    </div>
+  );
 }
 export default App;
