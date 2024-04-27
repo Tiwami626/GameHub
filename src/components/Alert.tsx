@@ -1,8 +1,8 @@
-
-
 const Alert = () => {
   return (
-    <div className='alert alert-warning alert-dismissible fade show' role='alert'>
+    <div
+      className='alert alert-warning alert-dismissible fade show'
+      role='alert'>
       <strong>Holy guacamole!</strong> You should check in on some of those
       fields below.
       <button
@@ -12,6 +12,6 @@ const Alert = () => {
         aria-label='Close'></button>
     </div>
   );
-}
+};
 
-export default Alert
+export default Alert;
